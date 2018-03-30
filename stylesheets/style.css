@@ -102,7 +102,7 @@ input:checked ~ .main {
 	}
 }
 
-@media (max-width: 549px) {
+@media only screen and (max-width: 549px) {
 	input:checked ~ .sidebar {
 		width: 100%;
 		height: auto;
