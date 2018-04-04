@@ -73,7 +73,7 @@ input:checked ~ .main {
 }
 
 
-@media (max-width: 860px) {
+/* @media (max-width: 860px) {
 	.sidebar {
 		display: none;
 	}
@@ -100,9 +100,13 @@ input:checked ~ .main {
 		left: -53%;
 
 	}
-}
+} */
 
-@media only screen and (max-width: 549px) {
+@media only screen and (max-width: 860px) {
+	.sidebar {
+		display: none;
+	}
+	
 	input:checked ~ .sidebar {
 		width: 100%;
 		height: auto;
