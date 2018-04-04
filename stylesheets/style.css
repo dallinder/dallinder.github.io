@@ -73,34 +73,6 @@ input:checked ~ .main {
 }
 
 
-/* @media (max-width: 860px) {
-	.sidebar {
-		display: none;
-	}
-
-	label {
-		display: inline-block;
-	}
-
-
-	input:checked ~ .sidebar {
-	display: inline-block;
-	width: 35%;
-	}
-
-	.main {
-		width: 100%;
-	}
-
-	input:checked ~ .main {
-		width: 50%;
-	}
-
-	input:checked ~ label {
-		left: -53%;
-
-	}
-} */
 
 @media only screen and (max-width: 860px) {
 	.sidebar {
